@@ -19,9 +19,78 @@ table.center {
   margin-right: auto;} 
 table, th, td {
   border: 2px solid White;
-  border-radius: 10px;}
+  border-radius: 10px;} 
+* {
+  box-sizing: border-box;}
+.row {
+  display: flex;
+  margin-left:-5px;
+  margin-right:-5px;}
+.column {
+  flex: 50%;
+  padding: 5px;}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;}
+th, td {
+  text-align: left;
+  padding: 16px;}
 </style>
 </head>
+<body>
+
+<div class="row">
+  <div class="column">
+    <table>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Points</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+      <tr>
+        <td>Adam</td>
+        <td>Johnson</td>
+        <td>67</td>
+      </tr>
+    </table>
+  </div>
+  <div class="column">
+    <table>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Points</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+      <tr>
+        <td>Adam</td>
+        <td>Johnson</td>
+        <td>67</td>
+      </tr>
+    </table>
+  </div>
+</div>
 
 <body>
   <h1>
