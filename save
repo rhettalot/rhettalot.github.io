@@ -1,0 +1,287 @@
+<!doctype html>
+<html>
+
+<title>
+  CSIS Website
+</title>
+  
+<head>
+  <style>
+    body {
+      background-color: #F7BBAE99;}
+      h1{color: white;
+      text-align: center;}
+    p {
+      font-family: verdana;
+      font-size: 20px;}
+    table.center {
+      margin-left: auto; 
+      margin-right: auto;} 
+    table, th, td {
+      border: 2px solid White;
+      border-radius: 10px;} 
+    * {
+      box-sizing: border-box;}
+    .row {
+      display: flex;
+      margin-left:-5px;
+      margin-right:-5px;}
+    .column {
+      flex: 50%;
+      padding: 0px;}
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+      width: 100%;}
+    th, td {
+      text-align: center;
+      padding: 16px;}
+    .footer { 
+      position: fixed;     
+      text-align: center;    
+      bottom: 0px; 
+      width: 100%;}  
+      
+  </style>
+</head>
+
+<body>
+  <h1>
+    Rhett Allen's Test Site
+  </h1>
+  
+<div class="row">
+<div class="column">
+  <table>
+    <tr>
+      <th colspan="2">
+        <h1>
+          Videos
+        </h1>
+      </th>
+    </tr>
+  <tr>
+    <td>
+      <iframe 
+        width="480" 
+        height="270" 
+        src="https://www.youtube.com/embed/dzXcJHS6_7s" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; 
+        autoplay; 
+        clipboard-write; 
+        encrypted-media; 
+        gyroscope; 
+        picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+    </td>
+  <td>
+    <iframe 
+      width="480" 
+      height="270"
+      src="https://www.youtube.com/embed/eF_W7c2RD-c" 
+      title="YouTube video player" 
+      frameborder="0" 
+      allow="accelerometer; 
+      autoplay; 
+      clipboard-write; 
+      encrypted-media; 
+      gyroscope; 
+      picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+   </td>
+</tr>
+<tr>
+  <td>
+    <iframe
+      width="480"
+      height="270"
+      src="https://www.youtube.com/embed/9RHFFeQ2tu4" 
+      title="YouTube video player" 
+      frameborder="0" 
+      allow="accelerometer; 
+      autoplay; 
+      clipboard-write; 
+      encrypted-media; 
+      gyroscope; 
+      picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+  </td>
+  <td>
+    <iframe
+      width="480" 
+      height="270" 
+      src="https://www.youtube.com/embed/ywLZlvi6Tw8" 
+      title="YouTube video player" 
+      frameborder="0" 
+      allow="accelerometer; 
+      autoplay; 
+      clipboard-write;
+      encrypted-media;
+      gyroscope; 
+      picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+   </td>
+  </tr>
+ </table>
+</div>
+
+<div class="column">
+ <table>
+  <tr>
+    <th>
+      <h1>
+        Images
+      </h1>
+    </th>
+  </tr>
+  <tr>
+    <td>
+      <img src="Cool image.jpg" alt="coolimage" usemap="#coolmap"
+           width="720"
+           height="480">
+        <map name="coolmap">
+          <area target="" 
+            alt="Mountain"
+            title="Mountain" 
+            href="https://wallpaperaccess.com/full/956468.jpg" 
+            coords="301,310,268,260,303,144,309,89,344,30,366,62,379,126,386,231,392,310" shape="poly">
+          <area target="" 
+            alt="Left Sea" 
+            title="Left Sea" 
+            href="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c33ed37b-da24-4e90-8b78-fd3cc9325e6d/dcasa52-132bfdf1-17a6-4343-85d9-ca9b7c934ee4.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2MzM2VkMzdiLWRhMjQtNGU5MC04Yjc4LWZkM2NjOTMyNWU2ZFwvZGNhc2E1Mi0xMzJiZmRmMS0xN2E2LTQzNDMtODVkOS1jYTliN2M5MzRlZTQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.K4qpooK_Ek0GLAB6_MasKfcFFm0YbNj5Gnu8aOaZDvo" 
+            coords="263,262,216,230,186,198,243,171,289,181" shape="poly">
+          <area target="" 
+            alt="Right Sea" 
+            title="Right Sea" 
+            href="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c33ed37b-da24-4e90-8b78-fd3cc9325e6d/dcasa52-132bfdf1-17a6-4343-85d9-ca9b7c934ee4.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2MzM2VkMzdiLWRhMjQtNGU5MC04Yjc4LWZkM2NjOTMyNWU2ZFwvZGNhc2E1Mi0xMzJiZmRmMS0xN2E2LTQzNDMtODVkOS1jYTliN2M5MzRlZTQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.K4qpooK_Ek0GLAB6_MasKfcFFm0YbNj5Gnu8aOaZDvo" 
+            coords="386,178,496,177,538,191,441,278,429,307,396,308" shape="poly">
+          <area target="" 
+            alt="Green Wave" 
+            title="Green Wave" 
+            href="https://thumbs.dreamstime.com/b/abstract-background-green-yellow-psychedelic-waves-abstract-background-green-yellow-psychedelic-waves-204025625.jpg" 
+            coords="434,309,443,281,540,192,607,95,728,64,728,139,693,141,671,156,667,168,643,180,619,178,584,203,578,230,564,247,546,253,539,244,496,257,479,280,461,283,445,309" shape="poly">
+          <area target="" 
+            alt="Red Wave" 
+            title="Red Wave" 
+            href="https://preview.redd.it/0zy4m4m765261.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=dadb4294ce2c0eb177bc7b1b0dcd88625670402c" 
+            coords="447,311,463,286,480,283,499,258,538,248,546,255,565,250,580,233,587,206,621,179,642,184,668,171,674,158,696,142,727,141,728,304,688,289,676,270,653,268,637,280,613,274,595,284,601,292,594,303,541,293,523,279,505,276,491,304,474,302" shape="poly">
+          <area target="" 
+            alt="Blue Wave" 
+            title="Blue Wave" 
+            href="https://ak9.picdn.net/shutterstock/videos/33823459/thumb/1.jpg?ip=x480" 
+            coords="456,314,473,304,479,306,488,306,506,280,520,281,537,293,595,304,603,292,599,284,611,276,633,285,653,273,674,275,684,287,727,308,725,355" shape="poly">
+          <area target="" 
+            alt="Lines "
+            title="Lines " 
+            href="https://img.freepik.com/free-vector/flat-hand-drawn-vivid-colored-groovy-background_23-2148850122.jpg?w=2000" 
+            coords="441,316,570,328,726,357,728,417" shape="poly">
+          <area target="" 
+             alt="Leaves" 
+             title="Leaves" 
+             href="https://images.fineartamerica.com/images-medium-large-5/psychedelic-leaves-john-topman.jpg" 
+             coords="434,314,385,427,322,452,725,452,725,420" shape="poly">
+          <area target="" 
+             alt="Geometry" 
+             title="Geometry" 
+             href="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ce2a94cc-2baf-4c06-9a33-12e831219b42/d7gqntz-2080f0a6-e651-4bb6-9356-81977c2ebb92.png/v1/fill/w_1024,h_768,q_80,strp/psychedelic_geometry_by_haystackengineering_d7gqntz-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzY4IiwicGF0aCI6IlwvZlwvY2UyYTk0Y2MtMmJhZi00YzA2LTlhMzMtMTJlODMxMjE5YjQyXC9kN2dxbnR6LTIwODBmMGE2LWU2NTEtNGJiNi05MzU2LTgxOTc3YzJlYmI5Mi5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Xux_y7B1ndjuVdngTUb1-jn3bDCDH0aJYpENeNqO1Ao" 
+             coords="97,454,408,310,430,312,382,423,320,450" shape="poly">
+          <area target="" 
+             alt="Wavy" 
+             title="Wavy" 
+             href="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/23-wavy-psychedelic-abstract-jonathan-welch.jpg" 
+             coords="2,366,397,311,88,452,3,452" shape="poly">
+          <area target="" 
+             alt="Skull BL" 
+             title="Skull BL" 
+             href="https://cdn5.vectorstock.com/i/1000x1000/91/74/graphic-print-of-stylized-psychedelic-skull-vector-22629174.jpg" 
+             coords="163,125,23" shape="circle">
+          <area target="" 
+             alt="Skull TL" 
+             title="Skull TL" 
+             href="https://i.etsystatic.com/25317796/r/il/c1acb5/3781315445/il_570xN.3781315445_4qj4.jpg" 
+             coords="191,60,26" shape="circle">
+          <area target=""
+             alt="Skull BR" 
+             title="Skull BR" 
+             href="https://tshirt-factory.com/images/detailed/75/psychedelic-skull-245356161.png" 
+             coords="517,123,18" shape="circle">
+          <area target="" 
+             alt="Skull TR" 
+             title="Skull TR" 
+             href="https://static.vecteezy.com/system/resources/previews/002/656/850/original/skull-psychedelic-universe-design-illustration-free-vector.jpg" 
+             coords="497,59,27" shape="circle">
+          <area target="" 
+             alt="Dot BL" 
+             title="Dot BL" 
+             href="https://thumbs.dreamstime.com/b/halftone-wave-psychedelic-background-curved-gradient-texture-pattern-vertical-gradient-dots-pop-art-texture-vector-illustration-167152753.jpg" 
+             coords="180,172,196,189" shape="rect">
+          <area target="" 
+             alt="Dot TL" 
+             title="Dot TL" 
+             href="https://i.pinimg.com/originals/8f/99/10/8f99106d8ad7535f416ecf1212c5b013.jpg" 
+             coords="241,9,263,31" shape="rect">
+          <area target="" 
+             alt="Dot TR" 
+             title="Dot TR" 
+             href="https://media.istockphoto.com/photos/psychedelic-mesh-dots-picture-id491671082" 
+             coords="418,10,440,30" shape="rect">
+          <area target="" 
+             alt="Sky Left" 
+             title="Sky Left" 
+             href="https://media.istockphoto.com/photos/energy-of-horizon-division-picture-id1005703218?k=20&amp;m=1005703218&amp;s=612x612&amp;w=0&amp;h=dd5xDj7-240B7UZstUoQSpod_-f1Syz49e3eCycDh6w=" 
+             coords="8,362,60,235,79,203,42,111,59,102,91,97,115,138,132,150,140,114,153,97,163,75,161,45,187,27,198,28,223,49,242,37,237,29,235,4,3,3" shape="poly">
+          <area target="" 
+             alt="Sky Right" 
+             title="Sky Right" 
+             href="https://live.staticflickr.com/8474/8111084255_b72526445c_b.jpg" 
+             coords="444,3,443,36,463,57,480,32,508,30,528,49,524,75,488,91,494,110,514,100,531,105,539,116,539,130,527,142,502,139,496,169,538,185,558,151,604,92,727,57,726,1" shape="poly">
+          <area target=""
+             alt="Fire" 
+             title="Fire" 
+             href="https://cdna.artstation.com/p/assets/images/images/021/775/880/large/noah-s-psy-fire.jpg?1572904594" 
+             coords="46,113,91,100,119,151,183,194,221,240,265,266,305,314,13,359,83,204" shape="poly">
+          <area target="" 
+             alt="Circle" 
+             title="Circle" 
+             href="https://cdna.artstation.com/p/assets/images/images/038/019/006/large/anusha-kaur-sohel-microsoftteams-image-1.jpg?1621954710" 
+             coords="192,164,193,123,222,68,265,33,317,15,371,13,419,38,453,54,482,98,491,170,388,172,384,121,371,61,343,26,307,89,301,134,288,177,243,164,204,184" shape="poly">
+        </map>
+     </td>
+   </tr>
+   <tr>
+     <td>
+       <h5 style="color: white;
+          font-family:verdana;
+          padding-top: 0px;
+          padding-right: 5px;
+          padding-bottom: 2px;
+          padding-left: 5px;">
+              Clicking parts of this image may take you somewhere new. Where will you go?
+               <br>
+              This image map was created to test many coordinates and shapes, nearly anywhere you click will take you somewhere different.
+               <br>
+              The area you click should be reminiscent of the picture you receive! 
+       </h5>
+     </td>
+   </tr>
+  </table>
+ </div>  
+ 
+<br>
+
+<div class="footer">
+  <p style="text-align:center;
+    color: White;">
+      By the End of the semester, this page will be my FINAL PROJECT with links to ALL OF MY PROJECTS.
+  </p>
+</div>
+  
+ </body>
+  
+</html>
