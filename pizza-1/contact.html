@@ -35,13 +35,31 @@
         Contact
     </h1>
     <form method="post" action="https://www.stonecoldprofessor.com/pizza-contact.php">
-        <input name="first-name" type="text" placeholder="First Name"/>
+
+        <label for="first-name">
+            First name
+        </label>
+            <input name="first-name" type="text" placeholder="First Name"/>
+    <br>
+        <label for="last-name">
+            Last Name
+        </label>
         <input name="last-name" type="text" placeholder="Last Name"/>
+    <br>
+        <label for="email">
+            Email
+        </label>
         <input name="email" type="email" placeholder="Email Address"/>
-            <textarea name="message" placeholder="Message">
-            </textarea>
-        <input type="submit"/>
-        <input type="reset"/>
+    <br>
+        <label for="message">
+            Message
+        </label>
+        <textarea name="message" placeholder="Message">
+        </textarea>
+    <br>    
+        <input type="submit" value="Send"/>
+    <br>
+        <input type="reset" value="Clear"/>
 
     </form>
 </body>

@@ -9,3 +9,4 @@ a, a:link, a:visited {color: aliceblue;}
 
 a:hover, a:active {color: chartreuse;}
 
+textarea {resize: none;}
