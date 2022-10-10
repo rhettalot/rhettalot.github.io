@@ -1,2 +1,11 @@
 
 ul {background-image: url(../img/pizzaimage.jpg);}
+
+body {background-color: #F7BBAE99;}
+
+a {font-size: 20px;}
+
+a, a:link, a:visited {color: aliceblue;}
+
+a:hover, a:active {color: chartreuse;}
+
