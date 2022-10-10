@@ -5,10 +5,7 @@
     <title>
         CSIS Home
     </title>
-
-    <style>
-
-    </style>
+    <link rel="stylesheet" href="./css/styles.css"/>
 </head>
 
 <body>
@@ -37,9 +34,17 @@
     <h1>
         Contact
     </h1>
+    <form method="post" action="https://www.stonecoldprofessor.com/pizza-contact.php">
+        <input name="first-name" type="text" placeholder="First Name"/>
+        <input name="last-name" type="text" placeholder="Last Name"/>
+        <input name="email" type="email" placeholder="Email Address"/>
+            <textarea name="message" placeholder="Message">
+            </textarea>
+        <input type="submit"/>
+        <input type="reset"/>
+
+    </form>
 </body>
 
 
 </html>
-
-
