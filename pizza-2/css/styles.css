@@ -1,5 +1,6 @@
 
-ul {background-image: url(../img/pizzaimage.jpg);}
+ul {background-image: url(../img/pizzaimage.jpg);
+   background-repeat: no-repeat;}
     
 .menu {display: inline-block;
       padding-left: 200px;
