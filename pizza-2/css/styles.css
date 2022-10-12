@@ -1,9 +1,8 @@
 
 ul {background-image: url(../img/pizzaimage.jpg);}
     
-.menu {display: inline-block;
-      padding-right: 50px;
-      align-self: center;}                     
+.menu {display: inline-block flex;
+      padding-right: 50px;}                     
 
 body {background-color: #F9D1D1;}
 
