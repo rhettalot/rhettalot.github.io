@@ -2,12 +2,12 @@
 ul {background-image: url(../img/pizzaimage.jpg);}
     
 .menu {display: inline-block;
-      word-spacing: 50px;
-      text-align: center;}                     
+      padding-right: 50px;
+      align-self: center;}                     
 
 body {background-color: #F9D1D1;}
 
-a {font-size: 30px;}
+a {font-size: 60px;}
 
 a, a:link, a:visited {color: #d4e0e7;
                       font-weight: bolder;
