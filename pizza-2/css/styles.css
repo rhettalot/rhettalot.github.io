@@ -5,8 +5,10 @@ body {background-color: #F9D1D1;}
 
 a {font-size: 30px;}
 
-a, a:link, a:visited {color: #7dbce0;}
+a, a:link, a:visited {color: #7dbce0;
+                      -webkit-text-stroke: 1px black;}
 
-a:hover, a:active {color: #F765A3;}
+a:hover, a:active {color: #F765A3;
+                   -webkit-text-stroke: 1px black;}
 
 textarea {resize: none;}
