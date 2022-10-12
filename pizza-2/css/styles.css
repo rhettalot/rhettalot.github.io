@@ -1,7 +1,9 @@
 
 ul {background-image: url(../img/pizzaimage.jpg);}
     
-.menu {display: inline-block;}                     
+.menu {display: inline-block;
+      word-spacing: 50px;
+      text-align: center;}                     
 
 body {background-color: #F9D1D1;}
 
