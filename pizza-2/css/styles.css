@@ -1,6 +1,7 @@
 
 ul {background-image: url(../img/pizzaimage.jpg);
-   background-repeat: no-repeat;}
+   background-repeat: no-repeat;
+   width: max-content;}
     
 .menu {display: inline-block;
       padding-left: 200px;
