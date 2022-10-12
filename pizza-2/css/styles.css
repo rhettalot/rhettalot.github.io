@@ -2,7 +2,7 @@
 ul {background-image: url(../img/pizzaimage.jpg);}
     
 .menu {display: inline-block;
-      display: flex;
+      padding-left: 150px;
       justify-content: center;}                     
 
 body {background-color: #F9D1D1;}
