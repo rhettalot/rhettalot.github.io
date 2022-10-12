@@ -1,5 +1,6 @@
 
-ul {background-image: url(../img/pizzaimage.jpg);}
+ul {background-image: url(../img/pizzaimage.jpg);
+    display: inline-block;}                     
 
 body {background-color: #F9D1D1;}
 
