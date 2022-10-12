@@ -1,12 +1,12 @@
 
 ul {background-image: url(../img/pizzaimage.jpg);}
 
-body {background-color: #F7BBAE99;}
+body {background-color: #FFA4B6;}
 
 a {font-size: 20px;}
 
-a, a:link, a:visited {color: aliceblue;}
+a, a:link, a:visited {color: #0B1354;}
 
-a:hover, a:active {color: chartreuse;}
+a:hover, a:active {color: #F765A3;}
 
 textarea {resize: none;}
