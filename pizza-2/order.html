@@ -35,54 +35,24 @@ overflow: hidden;">
     </ul>
 
     <h1 style="font-size: 45px;
-    font-family: Franklin Gothic Medium;
-    text-align: center;">
+               font-family: Franklin Gothic Medium;
+               text-align: center;">
         Order
     </h1>
 
     <form method="post" action="https://www.stonecoldprofessor.com/pizza-order.php">
-        
-        <label for="size">
-            Pizza Size
+
+        <label for="customer-name">
+            Name
         </label>
-            <input name="pizza-size" type="text" placeholder="Pizza size"/>
+            <input name="customer-name" type="text" placeholder="Your Name"/>
     <br>
-        <label for="toppings">
-            toppings
+
+        <label for="pizza-size">
+            Size
         </label>
-        <input name="toppings" type="text" placeholder="Toppings"/>
-    <br>
-        <label for="crust">
-            Crust
-        </label>
-        <input name="crust" type="text" placeholder="Crust"/>
-    <br>
-        <label for="delivery-address">
-            Delivery Address
-        </label>
-        <textarea name="street" placeholder="street" rows="1">
-        </textarea>
-        <textarea name="city" placeholder="City" rows="1">
-        </textarea>
-        <textarea name="state" placeholder="State" rows="1">
-        </textarea>
-        <textarea name="zip" placeholder="Zip-Code" rows="1">
-        </textarea>
-    <br>    
-        <label for="email-address">
-            <input name="email" type="email" placeholder="Email Address"/>
-        </label>
-    <br>
-        <label for="phone-number">
-            <input name="phone-number" type="text" placeholder="Phone Number"/>
-        </label>
-    <br>
-        <label for="message">
-            Message
-        </label>
-        <textarea name="message" placeholder="Message/Comment">
-        </textarea>
-    <br>
+            <input name="pizza-size" type="checkbox" id="size-4" value="4"/>
+
         <input type="submit" value="Send"/>
     <br>
         <input type="reset" value="Clear"/>
