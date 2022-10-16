@@ -40,9 +40,64 @@ overflow: hidden;">
         Order
     </h1>
 
+    <form method="post" action="https://www.stonecoldprofessor.com/pizza-contact.php">
+        
+        <label for="size">
+            Pizza Size
+        </label>
+            <input name="pizza-size" type="text" placeholder="Pizza size"/>
+    <br>
+        <label for="toppings">
+            toppings
+        </label>
+        <input name="toppings" type="text" placeholder="Toppings"/>
+    <br>
+        <label for="crust">
+            Crust
+        </label>
+        <input name="crust" type="text" placeholder="Crust"/>
+    <br>
+        <label for="delivery-address">
+            Delivery Address
+        </label>
+        <textarea name="street" placeholder="street">
+        </textarea>
+        <textarea name="city" placeholder="City">
+        </textarea>
+        <textarea name="state" placeholder="State">
+        </textarea>
+        <textarea name="zip" placeholder="Zip-Code">
+        </textarea>
+    <br>    
+        <label for="email-address">
+            <input name="email" type="email" placeholder="Email Address"/>
+        </label>
+    <br>
+        <label for="phone-number">
+            <input name="phone-number" type="text" placeholder="Phone Number"/>
+        </label>
+    <br>
+        <label for="message">
+            Message
+        </label>
+        <textarea name="message" placeholder="Message/Comment">
+        </textarea>
+    <br>
+        <input type="submit" value="Send"/>
+    <br>
+        <input type="reset" value="Clear"/>
+    </form>
+
 </body>
 
 
 </html>
 
 
+Size (sm, med, lg, etc.) - minimum of 4 sizes
+Which toppings (pepperoni, olives, ham, etc.) - minimum of 8 toppings
+Crust (thick, thin, pan, etc.) - minimum of 4 crusts
+Delivery address (street, city, state, zip)
+Email address
+Phone number
+Message/Comment
