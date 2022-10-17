@@ -24,3 +24,9 @@ a:hover, a:active {color: #F9D1D1;
                    text-decoration: none;}
                 
 textarea {resize: none;}
+
+legend {font-family: Franklin Gothic Medium;
+        font-size: 30px;
+        text-align:center;}
+
+label {font-family: sans-serif;}
