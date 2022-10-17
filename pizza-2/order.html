@@ -14,35 +14,37 @@
 
 <body style="margin: 0%;
             height: 100%;
-            overflow: hidden;">
+            overflow-x: hidden;">
 
-    <ul style="list-style: none;">
+    <ul class="menu" style="list-style: none;">
 
-        <li class="menu">
+        <li>
             <a href="./index.html">
                                     Home
             </a>
         </li>
 
-        <li class="menu">    
+        <li>    
             <a href="./order.html">
                                     Order
             </a>
         </li>
 
-        <li class="menu">
+        <li>
             <a href="./contact.html">
                                     Contact
             </a>
         </li>
 
-        <li class="menu">
+        <li>
             <a href="./about.html">
                                     About
             </a>
         </li>
 
     </ul>
+
+    <main class="center">
 
     <h1 style="font-size: 45px;
                font-family: Franklin Gothic Medium;
@@ -51,6 +53,8 @@
     </h1>
 
     <form method="post" action="https://www.stonecoldprofessor.com/pizza-order.php">
+
+    <div class="orderstuff">
 
         <label for="first">
                 First Name
@@ -72,23 +76,36 @@
         </label>
             <input name="phone" type="tel" placeholder="Number" required/>
 
+    </div>
+
     <br>
+
+    <div class="orderstuff">
 
         <label for="add1">
             Address 1
         </label>
             <input name="add1" type="text" placeholder="Address 1" required/>
 
+    </div>
+
     <br>
+
+    <div class="orderstuff">
     
         <label for="add2">
             Address 2
         </label>
             <input name="add2" type="text" placeholder="Address 2"/>
 
+    </div>
+
     <br>
 
+    <div class="orderstuff">
+
         <label for="city">
+            City
             <input name="city" type="text" placeholder="City" required/>
         </label>
 
@@ -257,6 +274,8 @@
             Zip Code
         </label>
             <input type="text" name="zip" placeholder="Zip" required/>
+
+    </div>
 
     <fieldset>
 
@@ -509,8 +528,10 @@
     <br>
 
         <input type="reset" value="Clear"/>
-        
+
     </form>
+
+</main>
 
 </body>
 
