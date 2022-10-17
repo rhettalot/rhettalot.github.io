@@ -3,9 +3,10 @@ ul {background-image: url(../img/betterpizzamenustretch.jpg);
    background-repeat: no-repeat;
    background-size: cover;}
     
-.menu {display: inline-block;
-      padding-left: 200px;
-      justify-content: center;}                     
+.menu {display: flex;
+      width: auto;
+      justify-content: space-around;
+      flex-wrap: wrap;}                     
 
 body {background-color: #F9D1D1;}
 
@@ -30,9 +31,32 @@ legend {font-family: Franklin Gothic Medium;
         text-align:center;}
 
 label {font-family: sans-serif;
-      text-align: center;}
+      text-align: center;
+      font-weight: bold;}
 
 
 h4 {font-family: sans-serif;}
+
+.home {display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: flex-start;}
+
+
+main {max-width: 1200px;
+     margin:auto;
+     padding-left: 10px;
+     padding-right: 10px;}
+
+.center {text-align: center;}
+
+.home table {width: 100%;}
+
+td {padding: 15px 0px;
+   line-height: 65px;}
+
+.orderstuff {display: flex;
+            align-items: flex-start;
+            flex-wrap: wrap;}
 
 /* CSS Testing goes below here */
