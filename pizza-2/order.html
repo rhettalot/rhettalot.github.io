@@ -1,250 +1,262 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
+
     <title>
         Order
     </title>
+
     <link rel="stylesheet" href="./css/styles.css"/>
+
 </head>
 
 <body style="margin: 0%;
-height: 100%;
-overflow: hidden;">
+            height: 100%;
+            overflow: hidden;">
+
     <ul style="list-style: none;">
+
         <li class="menu">
             <a href="./index.html">
                                     Home
             </a>
         </li>
+
         <li class="menu">    
             <a href="./order.html">
                                     Order
             </a>
         </li>
+
         <li class="menu">
             <a href="./contact.html">
                                     Contact
             </a>
         </li>
+
         <li class="menu">
             <a href="./about.html">
                                     About
             </a>
         </li>
+
     </ul>
 
     <h1 style="font-size: 45px;
                font-family: Franklin Gothic Medium;
                text-align: center;">
-        Order
+                 Order
     </h1>
 
     <form method="post" action="https://www.stonecoldprofessor.com/pizza-order.php">
 
         <label for="first">
-            First Name
+                First Name
         </label>
             <input name="first" type="text" placeholder="First"/>
 
         <label for="last">
-            Last
+                Last
         </label>
             <input name="last" type="text" placeholder="Last"/>
 
         <label for="email">
             Email
         </label>
-            <input name="email" type="email" placeholder="Email Address"/>
+            <input name="email" type="email" placeholder="Email Address" required/>
 
         <label for="phone">
             Phone
         </label>
-            <input name="phone" type="tel" placeholder="Number"/>
+            <input name="phone" type="tel" placeholder="Number" required/>
 
     <br>
 
         <label for="add1">
             Address 1
         </label>
-            <input name="add1" type="text" placeholder="Address 1"/>
+            <input name="add1" type="text" placeholder="Address 1" required/>
+
     <br>
     
-    <label for="add2">
-        Address 2
-    </label>
-        <input name="add2" type="text" placeholder="Address 2"/>
+        <label for="add2">
+            Address 2
+        </label>
+            <input name="add2" type="text" placeholder="Address 2"/>
+
     <br>
 
-    <label for="city">
-        <input name="city" type="text" placeholder="City"/>
-    </label>
+        <label for="city">
+            <input name="city" type="text" placeholder="City" required/>
+        </label>
 
-    <label for="state">
-        State
-    </label>
+        <label for="state">
+            State
+        </label>
 
-        <select name="state" id="state">
-            <option label="Alabama">
-                Alabama
-            </option>
-            <option label="Alaska">
-                Alaska
-            </option>
-            <option label="Arizona">
-                Arizona
-            </option>
-            <option label="Arkansas">
-                Arkansas
-            </option>
-            <option label="California">
-                California
-            </option>
-            <option label="Colorado">
-                Colorado
-            </option>
-            <option label="Conneticut">
-                Conneticut
-            </option>
-            <option label="Delaware">
-                Delaware
-            </option>
-            <option label="Florida">
-                Florida
-            </option>
-            <option label="Georgia">
-                Georgia
-            </option>
-            <option label="Hawaii">
-                Hawaii
-            </option>
-            <option label="Idaho">
-                Idaho
-            </option>
-            <option label="Illinios">
-                Illinios
-            </option>
-            <option label="Indiana">
-                Indiana
-            </option>
-            <option label="Iowa">
-                Iowa
-            </option>
-            <option label="Kansas">
-                Kansas
-            </option>
-            <option label="Kentucky">
-                Kentucky
-            </option>
-            <option label="Louisiana">
-                Louisiana
-            </option>
-            <option label="Maine">
-                Maine
-            </option>
-            <option label="Maryland">
-                Maryland
-            </option>
-            <option label="Massachusetts">
-                Massachusetts
-            </option>
-            <option label="Michigan">
-                Michigan
-            </option>
-            <option label="Minnesota">
-                Minnesota
-            </option>
-            <option label="Mississippi">
-                Mississippi
-            </option>
-            <option label="Missouri">
-                Missouri
-            </option>
-            <option label="Montana">
-                Montana
-            </option>
-            <option label="Nebraska">
-                Nebraska
-            </option>
-            <option label="Nevada">
-                Nevada
-            </option>
-            <option label="New Orleans">
-                New Orleans
-            </option>
-            <option label="New Jersey">
-                New Jersey
-            </option>
-            <option label="New Mexico">
-                New Mexico
-            </option>
-            <option label="New York">
-                New York
-            </option>
-            <option label="North Carolina">
-                North Carolina
-            </option>
-            <option label="North Dakota">
-                North Dakota
-            </option>
-            <option label="Ohio">
-                Ohio
-            </option>
-            <option label="Oklahoma">
-                Oklahoma
-            </option>
-            <option label="Oregon">
-                Oregon
-            </option>
-            <option label="Pennsylvania">
-                Pennsylvania
-            </option>
-            <option label="Rhode Island">
-                Rhode Island
-            </option>
-            <option label="South Carolina">
-                South Carolina
-            </option>
-            <option label="South Dakota">
-                South Dakota
-            </option>
-            <option label="Tennesse">
-                Tennesse
-            </option>
-            <option label="Texas">
-                Texas
-            </option>
-            <option label="Utah">
-                Utah
-            </option>
-            <option label="Vermont">
-                Vermont
-            </option>
-            <option label="Virginia">
-                Virginia
-            </option>
-            <option label="Washington">
-                Washington
-            </option>
-            <option label="Washington DC">
-                Washington DC
-            </option>
-            <option label="West Virginia">
-                West Virginia
-            </option>
-            <option label="Wisconsin">
-                Wisconsin
-            </option>
-            <option label="Wyoming">
-                Wyoming
-            </option>
-        
-        </select>
+            <select name="state" id="state" required>
+                <option label="Alabama">
+                    Alabama
+                </option>
+                <option label="Alaska">
+                    Alaska
+                </option>
+                <option label="Arizona">
+                    Arizona
+                </option>
+                <option label="Arkansas">
+                    Arkansas
+                </option>
+                <option label="California">
+                    California
+                </option>
+                <option label="Colorado">
+                    Colorado
+                </option>
+                <option label="Conneticut">
+                    Conneticut
+                </option>
+                <option label="Delaware">
+                    Delaware
+                </option>
+                <option label="Florida">
+                    Florida
+                </option>
+                <option label="Georgia">
+                    Georgia
+                </option>
+                <option label="Hawaii">
+                    Hawaii
+                </option>
+                <option label="Idaho">
+                    Idaho
+                </option>
+                <option label="Illinios">
+                    Illinios
+                </option>
+                <option label="Indiana">
+                    Indiana
+                </option>
+                <option label="Iowa">
+                    Iowa
+                </option>
+                <option label="Kansas">
+                    Kansas
+                </option>
+                <option label="Kentucky">
+                    Kentucky
+                </option>
+                <option label="Louisiana">
+                    Louisiana
+                </option>
+                <option label="Maine">
+                    Maine
+                </option>
+                <option label="Maryland">
+                    Maryland
+                </option>
+                <option label="Massachusetts">
+                    Massachusetts
+                </option>
+                <option label="Michigan">
+                    Michigan
+                </option>
+                <option label="Minnesota">
+                    Minnesota
+                </option>
+                <option label="Mississippi">
+                    Mississippi
+                </option>
+                <option label="Missouri">
+                    Missouri
+                </option>
+                <option label="Montana">
+                    Montana
+                </option>
+                <option label="Nebraska">
+                    Nebraska
+                </option>
+                <option label="Nevada">
+                    Nevada
+                </option>
+                <option label="New Orleans">
+                    New Orleans
+                </option>
+                <option label="New Jersey">
+                    New Jersey
+                </option>
+                <option label="New Mexico">
+                    New Mexico
+                </option>
+                <option label="New York">
+                    New York
+                </option>
+                <option label="North Carolina">
+                    North Carolina
+                </option>
+                <option label="North Dakota">
+                    North Dakota
+                </option>
+                <option label="Ohio">
+                    Ohio
+                </option>
+                <option label="Oklahoma">
+                    Oklahoma
+                </option>
+                <option label="Oregon">
+                    Oregon
+                </option>
+                <option label="Pennsylvania">
+                    Pennsylvania
+                </option>
+                <option label="Rhode Island">
+                    Rhode Island
+                </option>
+                <option label="South Carolina">
+                    South Carolina
+                </option>
+                <option label="South Dakota">
+                    South Dakota
+                </option>
+                <option label="Tennesse">
+                    Tennesse
+                </option>
+                <option label="Texas">
+                    Texas
+                </option>
+                <option label="Utah">
+                    Utah
+                </option>
+                <option label="Vermont">
+                    Vermont
+                </option>
+                <option label="Virginia">
+                    Virginia
+                </option>
+                <option label="Washington">
+                    Washington
+                </option>
+                <option label="Washington DC">
+                    Washington DC
+                </option>
+                <option label="West Virginia">
+                    West Virginia
+                </option>
+                <option label="Wisconsin">
+                    Wisconsin
+                </option>
+                <option label="Wyoming">
+                    Wyoming
+                </option>
+            
+            </select>
 
         <label for="zip">
             Zip Code
         </label>
-        <input type="text" name="zip" placeholder="Zip"/>
+            <input type="text" name="zip" placeholder="Zip" required/>
 
     <fieldset>
 
@@ -297,6 +309,7 @@ overflow: hidden;">
             <label for="crust9">
                 Chocolate
             </label>
+
         </div>
 
     </fieldset>
@@ -308,6 +321,7 @@ overflow: hidden;">
         </legend>
     
         <div>
+
           <input type="radio" id="size-4" name="size" value="4in">
           <label for="size-4">
              4"
@@ -353,11 +367,13 @@ overflow: hidden;">
             <label for="size-12">
                12"
             </label>
+
           </div>
       
     </fieldset>
 
     <fieldset>
+
         <legend>
             Toppings
         </legend>
@@ -484,25 +500,19 @@ overflow: hidden;">
     <label for="comments">
         Comment/Message
     </label>
-    <textarea name="comments"placeholder="Extra Info"rows="1"></textarea>
+        <textarea name="comments"placeholder="Extra Info"rows="1"></textarea>
 
     <br>
     
         <input type="submit" value="Send"/>
+
     <br>
+
         <input type="reset" value="Clear"/>
+        
     </form>
 
 </body>
 
-
 </html>
 
-
-Size (sm, med, lg, etc.) - minimum of 4 sizes
-Which toppings (pepperoni, olives, ham, etc.) - minimum of 8 toppings
-Crust (thick, thin, pan, etc.) - minimum of 4 crusts
-Delivery address (street, city, state, zip)
-Email address
-Phone number
-Message/Comment

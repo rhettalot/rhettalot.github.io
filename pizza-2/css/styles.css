@@ -29,4 +29,10 @@ legend {font-family: Franklin Gothic Medium;
         font-size: 30px;
         text-align:center;}
 
-label {font-family: sans-serif;}
+label {font-family: sans-serif;
+      text-align: center;}
+
+
+h4 {font-family: sans-serif;}
+
+/* CSS Testing goes below here */
